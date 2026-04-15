@@ -1,0 +1,9 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE   VIEW [dbo].[v_Test_NS]
+AS
+WITH XMLNAMESPACES ('urn:test' AS ns)
+SELECT
+    t.Id
+FROM dbo.TestXml t;
+GO
