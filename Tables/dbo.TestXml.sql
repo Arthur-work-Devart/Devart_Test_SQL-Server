@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[TestXml] (
+  [Id] [int] IDENTITY,
+  [XmlData] [xml] NULL,
+  PRIMARY KEY CLUSTERED ([Id])
+)
+ON [PRIMARY]
+TEXTIMAGE_ON [PRIMARY]
+GO

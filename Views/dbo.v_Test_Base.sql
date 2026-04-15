@@ -1,0 +1,7 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE VIEW [dbo].[v_Test_Base]
+AS
+SELECT Id
+FROM dbo.TestXml;
+GO
